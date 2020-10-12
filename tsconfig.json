@@ -1,0 +1,26 @@
+{
+  "_comment": "WE SHOULD MANUALLY DECLARE ALL PATHS IN THIS FILE STARTING WITH 'dist' SO WE CAN RUN CODE WITH tsconfg-paths/register. ACTUAL ALIASES PATHS SHOULD BE PLACED IN REFERENCE CONFIG FILES",
+  "files": [],
+  "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@shared/*": ["dist/shared/*"],
+        "@basketball/*": ["dist/basketball/*"],
+        "@football/*": ["dist/football/*"]
+      }
+  },
+  "references": [
+    {
+      "path": "./shared"
+    },
+    {
+      "path": "./football"
+    },
+    {
+      "path": "./basketball"
+    },
+    {
+      "path": "./tests"
+    }
+  ]
+}
