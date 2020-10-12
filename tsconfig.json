@@ -17,10 +17,13 @@
       "path": "./football"
     },
     {
+      "path": "./football/tests"
+    },
+    {
       "path": "./basketball"
     },
     {
-      "path": "./tests"
+      "path": "./basketball/tests"
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig-base.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "../../dist/basketball/tests",
+    "paths": {
+      "@basketball/*": ["./../*"],
+      "@shared/*": ["./../shared/*"]
+    }
+  },
+  "references": [
+    {
+      "path": "../../basketball"
+    },
+    {
+      "path": "../../shared"
+    }
+  ]
+}

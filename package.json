@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsc-watch --build --onSuccess 'npm test'",
     "play-basket": "node -r tsconfig-paths/register dist/basketball/play.js",
-    "test": "node_modules/jest/bin/jest.js dist/tests"
+    "test": "node_modules/jest/bin/jest.js dist"
   },
   "repository": {
     "type": "git",

@@ -7,3 +7,5 @@ describe('testing basketball game', () => {
     expect(game.state).toBe('in_progress');
   });
 });
+
+export const testSomething = {};

@@ -8,6 +8,7 @@
       "@shared/*": ["../shared/*"]
     }
   },
+  "exclude": ["./tests"],
   "references": [
     {
       "path": "../shared"

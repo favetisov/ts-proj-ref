@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig-base.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "../../dist/football/tests",
+    "paths": {
+      "@football/*": ["./../*"],
+      "@shared/*": ["./../shared/*"]
+    }
+  },
+  "references": [
+    {
+      "path": "../../football"
+    },
+    {
+      "path": "../../shared"
+    }
+  ]
+}
